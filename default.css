@@ -1,3 +1,9 @@
+/*
+ Things which I think should be included by default to make the storefront-child CSS better.
+ Note that you may still wish to make some edits to this file, e.g. to the button colour which is no longer purple but is red instead.
+ */
+
+
 .label {
     color: inherit;
     text-align: inherit;
@@ -9,6 +15,19 @@ a:focus, .button:focus, .button.alt:focus, .button.added_to_cart:focus, .button.
    outline: none;
 }
 
+/* Change purple (#96588a) button colour */
+button, input[type="button"], input[type="reset"], input[type="submit"], .button, .added_to_cart, .widget a.button, .site-header-cart .widget_shopping_cart a.button {
+    background-color: #E51837;
+    border-color: #E51837;
+    color: #ffffff;
+}
+
+/* Change purple (#96588a) hover button colour */
+button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover, .button:hover, .added_to_cart:hover, .widget a.button:hover, .site-header-cart .widget_shopping_cart a.button:hover {
+    background-color: #E51837;
+    border-color: #E51837;
+    color: #ffffff;
+}
 
 
 .col-full .content-area {

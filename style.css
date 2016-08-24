@@ -23,3 +23,59 @@ Images License: GNU General Public License v2 or later
  * Add your own custom css below this text.
  */
 
+.primary-navigation {
+    float: right;
+}
+
+@media (min-width: 768px) {
+	.storefront-primary-navigation {
+	    clear: none;
+	    background: inherit;
+	    float: right;
+	    margin-left: inherit;
+	    margin-right: inherit;
+	    padding-left: inherit;
+	    padding-right: inherit;
+	    width: 680px;
+	}
+	.navigation {
+	    width: 100%;
+	}
+	.woocommerce-active .site-header .main-navigation {
+	    width: 70%;
+	}
+	.col-full {
+	    max-width: 1096px;
+	    padding: 0;
+	}
+}
+
+/* Remove header */
+header#masthead {
+    margin-bottom: 0;
+}
+header.entry-header {
+    display: none;
+}
+
+
+.front-page-main-image {
+    height: 450px;
+}
+
+.view-products-button span {
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+
+div#pg-8-0, div#pg-8-1 {
+    margin-bottom: 0;
+}
+
+button, input[type="button"], input[type="reset"], input[type="submit"], .button, .added_to_cart, .widget a.button, .site-header-cart .widget_shopping_cart a.button {
+	font-weight: 400;
+	letter-spacing: 2px;
+}
+
+

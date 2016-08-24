@@ -59,6 +59,12 @@ if (!is_admin()) {
 }
 
 
+/* Remove search from header */
+add_action( 'init', 'remove_storefront_header_search' );
+function remove_storefront_header_search() {
+	remove_action( 'storefront_header', 'storefront_product_search', 	40 );
+}
+
 
 
 
