@@ -69,7 +69,8 @@ function remove_storefront_header_search() {
 
 
 
-
+// Get user to install plugins.  Comment next line out if you don't want to include plugins.
+require_once dirname( __FILE__ )."/TGM/install-plugins.php";
 
 
 
