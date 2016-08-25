@@ -7,6 +7,7 @@ The StoreFront Child Theme is a starter blank-ish child theme for WooThemes Stor
 - The search bar is removed from the header.
 - I have included a 'default' CSS file which fixes many things that annoy me in the storefront theme.  The colour of the buttons is set in here so be sure to change that if you don't want them to be red.
 - I have included some CSS in the main stylesheet which changes things round a bit; you may wish to delete it all if it doesn't suit.
+- Some plugins that I find useful are requested to be installed by default.  This can be disabled by commenting out this line in functions.php: `require_once dirname( __FILE__ )."/TGM/install-plugins.php";`
 
 ## Installation
 
