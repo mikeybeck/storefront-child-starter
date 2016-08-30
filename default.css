@@ -33,3 +33,9 @@ button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type=
 .col-full .content-area {
     width: 100%;
 }
+
+.widget_nav_menu ul li:before {
+    content: none;
+}
+
+

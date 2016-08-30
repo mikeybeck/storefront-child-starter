@@ -38,6 +38,16 @@ wp_enqueue_style( 'child-style', get_stylesheet_uri(), array('theme') );
 add_action( 'wp_enqueue_scripts', 'enqueue_child_theme_styles', PHP_INT_MAX);
 
 
+// Replace the 'Storefront designed by Woothemes' with something we might actually want.
+function storefront_credit() {
+?>
+	<div class="site-info">
+		&copy; <?php echo get_bloginfo( 'name' ) . ' ' . get_the_date( 'Y' ); ?>
+	</div>
+	<!-- .site-info -->
+<?php
+}
+
 /* Remove sidebars */
 function remove_sidebars() {
   unregister_sidebar( 'sidebar-1' ); // primary
